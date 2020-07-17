@@ -1,1 +1,1 @@
-Application is hosted with Heroku at https://glacial-gorge-74313.herokuapp.com/api/persons
+Application is hosted with Heroku at https://glacial-gorge-74313.herokuapp.com/
