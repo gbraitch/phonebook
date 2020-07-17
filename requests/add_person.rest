@@ -1,4 +1,12 @@
-POST http://localhost:3001/api/persons
+# POST http://localhost:3001/api/persons
+# Content-Type: application/json
+
+# {
+#   "name": "Sebastian",
+#   "number": "1458"
+# }
+
+POST https://glacial-gorge-74313.herokuapp.com/api/persons
 Content-Type: application/json
 
 {
