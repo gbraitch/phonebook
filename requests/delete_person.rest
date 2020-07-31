@@ -1,1 +1,2 @@
-DELETE https://glacial-gorge-74313.herokuapp.com/api/persons/271
+# DELETE https://glacial-gorge-74313.herokuapp.com/api/persons/271
+DELETE http://localhost:3001/api/persons/5f223b995507ee0dc2adcbce

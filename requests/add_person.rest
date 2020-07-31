@@ -2,14 +2,22 @@
 # Content-Type: application/json
 
 # {
-#   "name": "Sebastian",
-#   "number": "1458"
+#   "name": "Testerr",
+#   "number": "040asdasda6"
 # }
 
-POST https://glacial-gorge-74313.herokuapp.com/api/persons
+PUT http://localhost:3001/api/persons/5f20ed51b68f630850679bb4
 Content-Type: application/json
 
 {
-  "name": "Sebastian",
-  "number": "1458"
+  "name": "Arto Vihavainen",
+  "number": "045-1232456"
 }
+
+# POST https://glacial-gorge-74313.herokuapp.com/api/persons
+# Content-Type: application/json
+
+# {
+#   "name": "Test Person",
+#   "number": "1458"
+# }
