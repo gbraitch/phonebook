@@ -7,11 +7,13 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "build:ui": "rm -rf build && cd ~/part3/front-phonebook && npm run build --prod && cp -r build ~/part3/back-phonebook"
+    "build:ui": "rm -rf build && cd ~/part3/front-phonebook && npm run build --prod && cp -r build ~/part3/back-phonebook",
+    "lint": "eslint ."
   },
   "author": "Gursewak Braitch",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^7.5.0",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
